@@ -1,0 +1,32 @@
+.story__section {
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 190px;
+    width: 120px;
+    box-shadow: darkgrey 0px 5px 15px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: transform 90ms ease-in;
+    margin: 25px 5px;
+}
+
+.story__section:hover {
+    transform: scale(1.08);
+}
+
+.story__avatar {
+    margin: 10px;
+    top: 10px;
+    left: 3px;
+    border: solid #2e81f4 3px;
+}
+
+.story__section>h4 {
+    color: #fff;
+    bottom: 12px;
+    left: 12px;
+    position: absolute;
+
+}

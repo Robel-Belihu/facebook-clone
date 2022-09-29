@@ -1,0 +1,33 @@
+.Sidebar {
+    flex: 0.33;
+    padding: 25px 10px;
+}
+
+.Sidebar__row {
+    display: flex;
+    align-items: center;
+    padding: 11px;
+}
+
+.Sidebar__row>.MuiSvgIcon-root {
+    color: #2e81f4;
+}
+
+.Sidebar__row>h4 {
+    margin-left: 10px;
+}
+
+.Sidebar__row>.Sidebar__page {
+    color: #EB7827;
+}
+
+.Sidebar__row>.Sidebar__star {
+    color: #F6D02D;
+}
+
+.Sidebar__row:hover {
+    background-color: #B8B8B8;
+    cursor: pointer;
+    border-radius: 15px;
+    align-items: center;
+}

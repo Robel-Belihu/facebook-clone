@@ -1,0 +1,81 @@
+.message {
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 1px 2px 0.2px rgba(0, 0, 0, .5);
+    padding: 30px;
+    border-radius: 10px;
+    align-items: center;
+    width: 80%;
+    margin-left: 30px;
+
+}
+
+.message__top {
+    display: flex;
+    flex: 1;
+
+}
+
+.message>.message__top>form>input {
+    outline-width: 0;
+    width: 200%;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: #F0F0F0;
+    border: none;
+    padding: 12px 15px;
+}
+
+::placeholder {
+    font-size: 13px;
+}
+
+.message>hr {
+    width: 505px;
+    height: 0;
+    margin-top: 15px;
+}
+
+.message>.message__top>form>.messageText_input {
+    display: flex;
+    width: 100%;
+}
+
+.message>.message__top>form {
+    display: flex;
+}
+
+.message>.message__top>form>.messageText_inputSecond {
+    display: flex;
+    flex-basis: 38%;
+}
+
+.message>.message__top>form>button {
+    display: none;
+}
+
+.message__bottom {
+    display: flex;
+}
+
+.message__icon {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+
+.message__icon:hover {
+    background-color: #F0F0F0;
+}
+
+.icon__1 {
+    color: red;
+}
+
+.icon__2 {
+    color: #03C03C;
+}
+
+.icon__3 {
+    color: yellow;
+}
